@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block body %}
+
+<center>
+<img class="logo" src="/static/imagen/c811261f-1fd0-40b8-87a3-13b13ebc2cb9.jpg" alt="" width="200xp" height="200xp">
+</center>
+
+
+<h1 class="HOLA">DIEGO ANDRES MONTERO HERNANDEZ</h1>
+
+
+<form action="respuesta" method="post">
+<h2 class="HOLA">ingresa tu nombre</h2>
+
+<center>
+<input class="HOLA" type="text" name="nombre" id="" >
+</center>
+
+<h2 class="HOLA">ingresa tu gmail</h2>
+<center>
+<input class="HOLA" type="email" name="gmail" id="" >
+</center>
+
+
+<br>
+
+<center>
+<button type="submit">ENVIAR</button>
+
+</form>
+
+<h1>
+<br>
+respuesta: {{res}}
+<br>
+correo: {{ress}}
+</h1>
+
+<br>
+</center>
+
+{% endblock %}
